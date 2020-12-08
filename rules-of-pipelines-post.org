@@ -1,4 +1,4 @@
-#+TITLE: The Rules of Data Processing
+#+TITLE: The Rules for Data Processing Pipeline Builders
 #+STARTUP: inlineimages
 
 #+begin_quote
