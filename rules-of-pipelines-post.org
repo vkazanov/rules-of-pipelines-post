@@ -16,7 +16,7 @@ One reason is that real-life data is messy: most of the information we receive c
 dirty, non-validated, non-structured forms. In addition to validation issues, data
 consumers typically want data presented in a way that is easily understood…
 
-At Bumble - the parent company operating Badoo and Bumble apps - we apply hundreds of data
+At [[https://thebeehive.bumble.com/careers][Bumble]] - the parent company operating Badoo and Bumble apps - we apply hundreds of data
 transforming steps while processing our data sources: a high volume of user-generated
 events, production databases and external systems. This all adds up to quite a complex
 system! And just as with any other engineering system, unless carefully maintained,
@@ -134,7 +134,7 @@ So behold! I bring you my favourite Rules for Data Processing Pipeline Builders.
   In imperative programming, a subroutine with side effects is idempotent if the system
   state remains the same after one or several calls.
 
-  -- Wikipedia on Idempotence
+  -- Wikipedia on [[https://en.wikipedia.org/wiki/Idempotence#Idempotent_functions][Idempotence]]
   #+end_quote
 
   The Rule of Idempotence is a bit more subtle: running a transformation on the same input
@@ -163,7 +163,7 @@ So behold! I bring you my favourite Rules for Data Processing Pipeline Builders.
   =transform.py= step is idempotent (kind of restartable).
 
   Note that implicit input can sneak through in very unexpected ways. If you’ve ever heard
-  of reproducible builds, then you know the usual suspects: time, file system paths and
+  of [[https://en.wikipedia.org/wiki/Reproducible_builds][reproducible builds]], then you know the usual suspects: time, file system paths and
   other flavours of hidden global state.
 
   Why is idempotency important? Firstly for its ease of use! This feature makes it easy to
