@@ -1,1 +1,1 @@
-The Rules for Data Processing Pipeline Builders (published in [[https://habr.com/ru/company/badoo/blog/531912/][English]])
+The Rules for Data Processing Pipeline Builders (published in [[https://habr.com/ru/company/badoo/blog/531912/][English]], [[https://habr.com/ru/company/badoo/blog/535556/][Russian]])
